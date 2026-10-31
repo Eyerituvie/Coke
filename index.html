@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Science Website</title>
+      <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+     <h1>My science website</h1>
+     <p>Explore the amazing world around you</p>
+  </header>  
+
+  <main>
+    <h2>Choose a Topic</h2>
+
+    <div class="filters">
+        <button data-topic="all">All Topics</button>
+        <button data-topic="space">Space</button>
+        <button data-topic="plants">Plants</button>
+        <button data-topic="weather">Weather</button>
+
+    </div>
+
+    <section class="topics">
+        <article class="topic" data-type="space">
+            <span>🪐</span>
+            <h3>Our Solar System</h3>
+            <p>The sun is a star at the center of our solar system.</p>
+             </article>
+
+             <article class="topic" data-type="plants">
+                <span>🌱</span>
+                <h3>Plant Life</h3>
+                <p>Plants use sunlight to make food through photosynthesis</p>
+                
+             </article>
+
+             <article class="topic" data-type="weather">
+                <span>🌦️</span>
+                <h3>Weather</h3>
+                <p>Weather describes conditions in the atmosphere</p>
+
+             </article>
+              </section>
+
+              <section class="fact-box">
+                <h2>science fact of the moment</h2>
+                <p id="fact">press the button to discover a fact</p>
+                <button id="factButton">discover a fact</button>
+
+              </section>
+              </main>
+
+              <footer>keep asking questions keep discovring!</footer>
+
+
+   
+    <script src="script.js"></script>
+</body>
+</html>

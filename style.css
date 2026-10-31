@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: gold;
+  color: green;
+  line-height: 1.6;
+}
+
+header{
+    text-align: center;
+    padding: 35px 15px;
+    background: crimson;
+    color: hotpink;
+}
+
+main {
+    max-width: 950px;
+    margin: 25px auto;
+    padding: 15px;
+}
+
+button{
+ margin: 5px;
+ padding: 11px 15px;
+ border: 0;
+ border-radius: 8px;
+ background: darkgoldenrod;
+ color: chartreuse;
+ cursor: pointer;
+}
+
+.topics {
+    display: grid ;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+    margin: 20px 0;
+}
+
+.topic, .fact-box {
+    background: coral;
+    border-radius: 15px;
+    padding: 22px;
+    box-shadow: 0 4px 16px #000000
+}
+
+.topic span {
+    font-size: 3.5rem;
+}
+
+.topic h3 {
+    color: darkblue;
+}
+
+.topic[hidden] {
+    display: none;
+}
+
+       .fact-box {
+        background: aquamarine;
+        margin-top: 25px;
+       }
+
+       footer {
+        padding: 25px;
+        text-align: center;
+        background: darkorchid;
+        color: black;
+       }
